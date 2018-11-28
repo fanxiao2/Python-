@@ -35,6 +35,8 @@ if stu_id in id_results.keys():
 else:
 	print("查无此号!")
 
+print("------------------------------------")
+
 # For循环
 ### 测试数据
 num_test = [12,34,56,78,90,87,65,43,21]
@@ -58,6 +60,8 @@ city = ['WuHan', 'BeiJing', 'ShangHai', 'ShanZhen', 'ChongQing']
 for index in range(0, len(city), 2):
 	print("city[%d]:%s"%(index, city[index]))
 
+print("------------------------------------")
+
 # while循环
 w_num = [12,23,34,45,56,67,78,89]
 sumOfNum = 0
@@ -70,6 +74,8 @@ while index < len(num_test):
 ## 求平均值
 average = sumOfNum/len(num_test)
 print("平均值是:%f"%(average))
+
+print("------------------------------------")
 
 # break 跳出循环体
 ## 测试数据
@@ -89,6 +95,8 @@ while True:
 		break
 	else:
 		print("小了")
+
+print("------------------------------------")
 		
 ## continue 语句 是break的对头 不会退出循环体
 num_t2 = [12,34,56,78,90,98,76,54,32]
@@ -98,6 +106,7 @@ for i in range(len(num_t2)):
 		continue
 	print(num_t2[i])
 	
+print("------------------------------------")
 	
 ## 空语句 pass语句，主要用于占位
 num_t3 = [12,34,56,78,90,98,76,54,32]
